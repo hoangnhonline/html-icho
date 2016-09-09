@@ -1493,7 +1493,7 @@ span.notify-right{
     font-weight: bold;
     line-height: normal;
     color: #999;
-    padding-top: 7px;
+    padding-top: 0;
 }
 .floor-elevator .fa{
     font-weight: bold;
@@ -1993,6 +1993,7 @@ span.notify-right{
 [8. Product]
 */
 .product-list li{
+  position: relative;
 }
 .product-list li:hover .add-to-cart{
     bottom: 0;
@@ -2036,8 +2037,7 @@ span.notify-right{
   transform-origin: top right; */
 }
 .product-list li .right-block{
-    padding: 0 15px;
-    margin-top: 15px;
+    padding: 10px 15px;
 }
 .product-list li .quick-view{
     position: absolute;
@@ -2110,6 +2110,7 @@ span.notify-right{
   background: #f8f8f8;
   height: auto;
   padding: 0; margin: 0;
+  padding-top: 10px;
   font-size: 12px;
   color: #fff;
   line-height: 16px;
@@ -2118,14 +2119,14 @@ span.notify-right{
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9;
+  z-index: 100;
   transition: all .5s ease;
   -ms-opacity: 0;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   cursor: default;
-  pointer-events: none
+  pointer-events: none;
 }
 .product-list li:hover .mask-info {
   -ms-opacity: 1;
@@ -2255,33 +2256,38 @@ span.notify-right{
     right: 0;
     bottom: -50px;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #D44C0E !important;
     color: #fff;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     -moz-transition: all 0.45s ease;
     -webkit-transition: all 0.45s ease;
     -o-transition: all 0.45s ease;
     -ms-transition: all 0.45s ease;
     transition: all 0.45s ease;
+    opacity: 0.8;
+    z-index: 101;
 
 }
 .product-list li .add-to-cart:hover{
-  background-color: rgba(255,51,102,0.5);
+  background-color: #D44C0E;
 }
 .product-list li .add-to-cart a{
-    background: url("../images/add-cart.png") no-repeat left center;
-    height: 32px;
-    line-height: 32px;
+  font-size: 15px;
+  font-weight: bold;
     color: #fff;
-    width: auto;
-    padding-left: 40px;
-    display: inline-block;
+    display: block;
     vertical-align: middle;
+    background: none !important;
     
 }
 .product-list li .product-name{
     padding-bottom: 5px;
+    height: 36px;
+    overflow: hidden;
+}
+.product-list li .product-name a:hover{
+    color: #000;
 }
 .product-list li .product-info{
     padding: 0 5px;
@@ -2289,11 +2295,12 @@ span.notify-right{
 
 .product-list li .content_price{
     width: auto;
-    display: inline-block;
+    display: block;
 }
 .product-list li .product-price{
-    font-size: 18px;
+    font-size: 14px;
     color: #ec1c24;
+    font-weight: bold;
 }
 .product-list li .old-price{
     text-decoration:line-through;
@@ -2375,7 +2382,7 @@ span.notify-right{
 }
 
 .product-list li .discount{
-  background-color: #ee8923;
+  background-color: #F77C00;
   color: #fff;
   font-size: 13px; font-weight: bold;
   padding: 1px 5px;
@@ -2385,7 +2392,30 @@ span.notify-right{
   -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
 }
 
+.product-list li .compare-txt{
+  color: #0D6CB0;
+}
 
+.product-list li .add_to_cart_button{
+  cursor: pointer;
+  padding: 2px 10px;
+  font-size: 14px;
+  color: #fff !important;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #d97f00;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #f89406;
+  position: absolute; bottom: 8px;
+  right: 10px;
+  background: -webkit-gradient(linear,0% 0%,0% 100%,from(#f76b1c),to(#f89406));
+  background: -webkit-linear-gradient(top,#f89406,#f76b1c);
+  background: -moz-linear-gradient(top,#f89406,#f76b1c);
+  background: -ms-linear-gradient(top,#f89406,#f76b1c);
+  background: -o-linear-gradient(top,#f89406,#f76b1c);
+}
 
 /*------------------
 [9. Owl carousel]
@@ -3733,17 +3763,22 @@ a.detail-consulting i{
 }
 .view-product-list .product-list.grid{
   margin-top: -10px;
+  padding-left: 10px;
+padding-right: 10px;
 }
 .product-list .product-container{
   border: 1px solid #ccc;
   overflow: hidden;
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 .product-list .info-orther{
   display: none;
 }
 .product-list.grid li{
   margin-top: 30px;
+  margin-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .product-list.grid .info-orther{
   display: none;
