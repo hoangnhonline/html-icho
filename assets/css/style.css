@@ -2037,7 +2037,7 @@ span.notify-right{
   transform-origin: top right; */
 }
 .product-list li .right-block{
-    padding: 10px 15px;
+    padding: 10px 7px;
 }
 .product-list li .quick-view{
     position: absolute;
@@ -2304,9 +2304,10 @@ span.notify-right{
 }
 .product-list li .old-price{
     text-decoration:line-through;
-    margin-left: 11px;
+    margin-left: 3px;
     line-height: 25px;
     color: #666;
+    font-size: 13px;
 
 }
 .product-list li .colreduce-percentage{
@@ -2398,7 +2399,7 @@ span.notify-right{
 
 .product-list li .add_to_cart_button{
   cursor: pointer;
-  padding: 2px 10px;
+  padding: 2px 5px;
   font-size: 14px;
   color: #fff !important;
   text-align: center;
@@ -2409,7 +2410,7 @@ span.notify-right{
   border-radius: 4px;
   background: #f89406;
   position: absolute; bottom: 8px;
-  right: 10px;
+  right: 5px;
   background: -webkit-gradient(linear,0% 0%,0% 100%,from(#f76b1c),to(#f89406));
   background: -webkit-linear-gradient(top,#f89406,#f76b1c);
   background: -moz-linear-gradient(top,#f89406,#f76b1c);
