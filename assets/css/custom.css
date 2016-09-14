@@ -1164,6 +1164,16 @@
 		padding-left: 15px;
 		border-left: 1px solid #eaeaea;
 	}
+  
+  .product-list li .left-block {
+      height: 230px;
+  }
+  
+  .product-list li .content_price {
+      height: 25px;
+  }
+  
+  
 }
 /*--------------------
 [15. Styles for devices(<=480px)]
@@ -1264,6 +1274,10 @@
 		padding-left: 15px;
 		border-left: 1px solid #eaeaea;
 	}
+  
+  .product-list li .left-block {
+      height: auto;
+  }
 
 }
 

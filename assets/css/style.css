@@ -1697,7 +1697,6 @@ span.notify-right{
   font-size: 15px;
   text-align: center;
   line-height: 32px;
-  padding-top: 8px;
   -moz-transition: all 0.45s ease;
   -webkit-transition: all 0.45s ease;
   -o-transition: all 0.45s ease;
@@ -2011,6 +2010,7 @@ span.notify-right{
     position: relative;
     overflow: hidden;
     padding: 10px 10px 0;
+    height: 200px;
 }
 .product-list li .left-block a{
   display: block;
@@ -2283,7 +2283,7 @@ span.notify-right{
 }
 .product-list li .product-name{
     padding-bottom: 5px;
-    height: 35px;
+    height: 34px;
     overflow: hidden;
 }
 .product-list li .product-name a:hover{
@@ -2294,9 +2294,9 @@ span.notify-right{
 }
 
 .product-list li .content_price{
-    width: auto;
-    display: block;
+    width: 100%;
 }
+
 .product-list li .product-price{
     font-size: 14px;
     color: #ec1c24;
