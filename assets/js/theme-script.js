@@ -406,4 +406,17 @@
             $("#main-menu li.dropdown >a").removeAttr('data-toggle');
         }
     }
+    
+    $('body,html').append('<div class="global-overlay"></div>');
+    $('.global-overlay').css('display', 'none');
+    
+    $(".header-user .user-name .user-name-box").hide();
+    $(".header-user .user-name").hover(function(){
+      $(this).children('.user-name-box').show();
+      $('.global-overlay').css('display', 'block');
+    }, function(){
+      $(this).children('.user-name-box').hide();
+      $('.global-overlay').css('display', 'none');
+    });
+    
 })(jQuery); // End of use strict

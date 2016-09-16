@@ -60,16 +60,22 @@
                 </a>
             </div><!-- end /.shopping-cart-box -->
             
-            <div class="choose-user-login col-sm-2 col-xs-6">
-                <div class="dropdown">
-                    <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                      <p class="login-name"><span>Đăng nhập</span></p>
-                      <p>Tài khoản & đơn hàng</p>
-                    </a>
-                    <ul class="dropdown-menu mega_dropdown" role="menu">
-                        <li><a href="login.html">Đăng nhập</a></li>
-                        <li><a href="register.html">Đăng ký</a></li>
-                    </ul>
+            <div class="header-user col-sm-2 col-xs-6">
+                <div class="user-name">
+                    <div class="user-name-link user-ajax-link">
+                      <ul>
+                        <li class="user-name-short"><span>Đăng nhập</span></li>
+                        <li class="user-name-account"><span>Tài khoản</span><span> &amp; Đơn hàng</span></li>
+                      </ul>
+                      <span class="caret"></span>
+                    </div>
+                    <div class="user-name-box user-ajax-box">
+                      <ul class="user-ajax-guest">
+                        <li id="login_link"><a class="user-name-login" title="Đăng Nhập" href="#"><i class="fa fa-sign-in"></i> Đăng nhập</a></li>
+                        <li id="login_fb_link"><a data-url="#" href="javascript: void(0)" title="Đăng nhập bằng Facebook" class="user-name-loginfb"><i class="fa fa-facebook-square"></i><span>Đăng nhập bằng</span><span> Facebook</span></a></li>
+                        <li class="user-name-register"><a title="Tạo tài khoản mới" href="#"><i class="fa fa-user"></i><span>Tạo tài khoản</span></a></li>
+                      </ul>
+                    </div>
                 </div>
             </div><!-- end choose-user-login -->
         </div>
