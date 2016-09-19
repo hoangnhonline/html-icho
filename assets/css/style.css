@@ -156,7 +156,7 @@ img.alignright{
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 9998;
+  z-index: 1048;
   display: none
 }
 
@@ -1039,7 +1039,7 @@ img.alignright{
   position: absolute;
   top: 55px;
   left: 0;
-  z-index: 9999;
+  z-index: 1049;
 }
 .main-header .header-user .user-name .user-name-box ul {
   border: 1px solid #ccc;
@@ -4748,6 +4748,48 @@ padding-right: 10px;
 .product-comments-block-tab .reviewRating{
   color: #ff9900;
 }
+
+.product-content-detail {
+  text-align: justify;
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  -webkit-transition: max-height 1s;
+  transition: max-height 1s;
+}
+
+.product-content-detail .box-readmore {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  height: 54px;
+  bottom: 0;
+}
+
+.product-content-detail .box-readmore .readmore {
+  display: block;
+  padding: 8px 0;
+  overflow: hidden;
+  border: 1px solid #288ad6;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  color: #288ad6;
+  text-transform: uppercase;
+  width: 200px;
+  margin: 10px auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.product-content-detail .box-readmore .readmore:hover {
+  background-color: #288ad6;
+  color: #fff;
+}
+
 .product-comments-block-tab .comment{
   padding-bottom: 10px;
   padding-top: 10px;
@@ -5943,6 +5985,3 @@ padding-right: 10px;
   color: #fff;
   opacity: 0.8;
 }
-
-
-

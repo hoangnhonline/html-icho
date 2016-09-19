@@ -407,6 +407,8 @@
         }
     }
     
+    /* Display user box in the header */
+    
     $('body,html').append('<div class="global-overlay"></div>');
     $('.global-overlay').css('display', 'none');
     
@@ -419,4 +421,35 @@
       $('.global-overlay').css('display', 'none');
     });
     
+    
+    /* Display modal for user box 
+    
+    $('#modalResetPasswordFrom').on('shown.bs.modal', function () {
+      $(this).css('padding-right','0px');
+      $('body').css('padding-right','0px');
+    })
+    $('#modalRegisterFrom').on('shown.bs.modal', function () {
+      $(this).css('padding-right','0px');
+      $('body').css('padding-right','0px');
+    })
+    $('#modalLoginFrom').on('shown.bs.modal', function () {
+      $(this).css('padding-right','0px');
+      $('body').css('padding-right','0px');
+    })*/
+    
+    jQuery(".readmore").click(function () {
+      open = !open;
+      if (!open) {
+        jQuery(this).text("Thu gọn");
+        jQuery(".product-content-detail").css("max-height", "10000px");
+      }
+      else {
+        jQuery(this).text("Xem chi tiết");
+        jQuery(".product-content-detail").css("max-height", "500px");
+      }
+    });
+    
+    
 })(jQuery); // End of use strict
+
+
