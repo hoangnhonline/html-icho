@@ -1040,6 +1040,7 @@ img.alignright{
   top: 55px;
   left: 0;
   z-index: 1049;
+  display: none;
 }
 .main-header .header-user .user-name .user-name-box ul {
   border: 1px solid #ccc;
@@ -2017,7 +2018,7 @@ span.notify-right{
   color: #fff;
   font-size: 15px;
   text-align: center;
-  line-height: 27px;
+  line-height: 31px;
   -moz-transition: all 0.45s ease;
   -webkit-transition: all 0.45s ease;
   -o-transition: all 0.45s ease;
@@ -2064,7 +2065,7 @@ span.notify-right{
     width: 20px;
     height: 20px;
     
-    border-radius: 90%;
+    border-radius: 100%;
     margin-right: 5px;
     line-height: 20px;
 }
@@ -2085,7 +2086,7 @@ span.notify-right{
 .header-top-right .homeslider .bx-wrapper .bx-pager.bx-default-pager a:hover, .header-top-right .homeslider .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: #ff3366;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #ff3366;
 }
 .bx-wrapper{
     margin: 0;
@@ -2366,6 +2367,7 @@ span.notify-right{
 }
 .product-list li .right-block{
     padding: 10px 4px;
+    position: relative;
 }
 .product-list li .quick-view{
     position: absolute;
@@ -2725,6 +2727,9 @@ span.notify-right{
 .product-list li .compare-txt{
   color: #0D6CB0;
 }
+.product-list li .compare-txt:hover{
+  text-decoration: underline;
+}
 
 .product-list li .add_to_cart_button{
   cursor: pointer;
@@ -2734,9 +2739,9 @@ span.notify-right{
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #d97f00;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
   background: #f89406;
   position: absolute; bottom: 8px;
   right: 5px;
@@ -2776,7 +2781,7 @@ span.notify-right{
     height: 24px;
     color: #ccc;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 2px;
 }
 .owl-controls .owl-prev:hover,
 .owl-controls .owl-next:hover{

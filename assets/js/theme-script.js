@@ -407,10 +407,10 @@
         }
     }
     
-    /* Display user box in the header */
+    /* Display user box in the header 
     
     $('body,html').append('<div class="global-overlay"></div>');
-    $('.global-overlay').css('display', 'none');
+    $('.global-overlay').css('display', 'none'); */
     
     $(".header-user .user-name .user-name-box").hide();
     $(".header-user .user-name").hover(function(){
