@@ -3492,14 +3492,13 @@ ul.collection li:first-child img {
 #register-form .content .input-wrap .icheck-wrap,
 .register-form .content .input-wrap .icheck-wrap {
   font-weight: 400;
-  padding-left: 30px;
+  padding-left: 0;
   position: relative;
   font-size: 13px
 }
 #register-form .content .input-wrap .icheck-wrap input[type=checkbox],
 .register-form .content .input-wrap .icheck-wrap input[type=checkbox] {
-  opacity: 0;
-  filter: alpha(opacity=0)
+
 }
 #register-form .content .input-wrap .icheck-wrap .icheckbox_square-blue,
 .register-form .content .input-wrap .icheck-wrap .icheckbox_square-blue {
@@ -3761,8 +3760,6 @@ ul.collection li:first-child img {
   width: 320px
 }
 }
-
-
 
 .shipping-address-page .bootbox .modal-header {
   padding: 15px 0 5px 15px;

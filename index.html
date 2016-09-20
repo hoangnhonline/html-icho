@@ -71,27 +71,27 @@
                     </div>
                     <div class="user-name-box user-ajax-box">
                       <ul class="user-ajax-guest">
-                        <li id="login_link"><a class="user-name-login" title="Đăng Nhập" href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#modalLoginFrom"><i class="fa fa-sign-in"></i> Đăng nhập</a></li>
+                        <li id="login_link"><a class="user-name-login" title="Đăng Nhập" href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#login-form"><i class="fa fa-sign-in"></i> Đăng nhập</a></li>
                         <li id="login_fb_link"><a data-url="#" href="javascript:void(0)" title="Đăng nhập bằng Facebook" class="user-name-loginfb"><i class="fa fa-facebook-square"></i><span>Đăng nhập bằng</span><span> Facebook</span></a></li>
-                        <li class="user-name-register"><a title="Tạo tài khoản mới" href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#modalRegisterFrom"><i class="fa fa-user"></i><span>Tạo tài khoản</span></a></li>
+                        <li class="user-name-register"><a title="Tạo tài khoản mới" href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#register-form"><i class="fa fa-user"></i><span>Tạo tài khoản</span></a></li>
                       </ul>
                     </div>
                 </div>
                 
                 <!-- Modal -->
-                <div class="modal fade" id="modalLoginFrom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal fade" id="login-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-sm">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Đăng nhập</h4>
                         <div class="head">
-                          <p> <span>Bạn chưa có tài khoản? </span> <a href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#modalRegisterFrom">Đăng ký</a> </p>
+                          <h2 class="modal-title" id="myModalLabel">Đăng nhập</h2>
+                          <p> <span>Bạn chưa có tài khoản? </span> <a href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#register-form">Đăng ký</a> </p>
                         </div>
                       </div>
                       <div class="modal-body">
                         
-                          <form method="POST" action="#" id="login_popup_form">
+                          <form method="POST" action="#" id="login_popup_form" class="content bv-form">
                             <div class="form-group popup_email has-feedback" id="popup_login">
                               <label class="control-label">Email</label>
                               <input data-bv-field="email" id="popup-login-email" class="form-control login" name="email" placeholder="Nhập Email" type="text">
@@ -105,7 +105,7 @@
                             </div>
                             <div class="form-group" id="error_captcha" style="margin-bottom: 15px"> <span class="help-block ajax-message"></span> </div>
                             <div class="form-group">
-                              <p class="reset">Quên mật khẩu? Nhấn vào <a href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#modalResetPasswordFrom">đây</a></p>
+                              <p class="reset">Quên mật khẩu? Nhấn vào <a href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#reset-password-form">đây</a></p>
                             </div>
                             <div class="form-group">
                               <button type="submit" id="login_popup_submit" class="btn btn-danger btn-block">Đăng nhập</button>
@@ -119,42 +119,45 @@
                 </div><!-- end modal -->
                 
                 <!-- Modal -->
-                <div class="modal fade" id="modalRegisterFrom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal fade" id="register-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Đăng ký tài khoản</h4>
+                        
                         <div class="head">
-                          <p> <span>Bạn đã có tài khoản?</span> <a href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#modalLoginFrom">Đăng nhập</a> </p>
+                          <h2 class="modal-title" id="myModalLabel">Đăng ký tài khoản</h2>
+                          <p> <span>Bạn đã có tài khoản?</span> <a href="javascript:(void);" class="link" data-dismiss="modal" data-toggle="modal" data-target="#login-form">Đăng nhập</a> </p>
                         </div>
                       </div>
                       <div class="modal-body">
                         
-                          <form method="POST" action="#" id="register_popup_form" class="row">
-                            <div class="col-sm-6">
+                          <form method="POST" action="#" id="register_popup_form" class="content bv-form">
+                            <div class="left-col">
                               <div class="form-group" id="register_email">
-                                <label class="control-label" for="email"><strong>Email:</strong></label>
+                                <label class="control-label" for="email"><strong>Email</strong></label>
                                 <div class="input-wrap has-feedback">
                                   <input data-bv-field="email" class="form-control register register-email-input" name="email" id="email" placeholder="Nhập Email" type="text">
                                   <i data-bv-icon-for="email" class="form-control-feedback bv-no-label" style="display: none;"></i> <span class="help-block ajax-message"></span> <small data-bv-result="NOT_VALIDATED" data-bv-for="email" data-bv-validator="notEmpty" class="help-block" style="display: none;">Vui lòng nhập Email</small><small data-bv-result="NOT_VALIDATED" data-bv-for="email" data-bv-validator="remote" class="help-block" style="display: none;">Email đã tồn tại</small></div>
                               </div>
                               <div class="form-group" id="register_password">
-                                <label class="control-label" for="pasword"><strong>Mật khẩu:</strong></label>
+                                <label class="control-label" for="pasword"><strong>Mật khẩu</strong></label>
                                 <div class="input-wrap has-feedback">
                                   <input data-bv-field="password" class="form-control register" name="password" id="password" placeholder="Mật khẩu từ 6 đến 32 ký tự" autocomplete="off" type="password">
                                   <i data-bv-icon-for="password" class="form-control-feedback bv-no-label" style="display: none;"></i> <span class="help-block ajax-message"></span> <small data-bv-result="NOT_VALIDATED" data-bv-for="password" data-bv-validator="notEmpty" class="help-block" style="display: none;">Vui lòng nhập Mật khẩu</small><small data-bv-result="NOT_VALIDATED" data-bv-for="password" data-bv-validator="stringLength" class="help-block" style="display: none;">Mật khẩu phải dài từ 6 đến 32 ký tự</small></div>
                               </div>
                               <div class="form-group" id="register_name">
-                                <label class="control-label">Họ tên</label>
+                                <label class="control-label"><strong>Họ tên</strong></label>
                                 <div class="input-wrap has-feedback">
                                   <input class="form-control register" name="full_name" id="name" placeholder="Nhập họ tên" data-bv-field="full_name" type="text">
                                   <i class="form-control-feedback bv-no-label" data-bv-icon-for="full_name" style="display: none;"></i> <span class="help-block ajax-message"></span> <small class="help-block" data-bv-validator="notEmpty" data-bv-for="full_name" data-bv-result="NOT_VALIDATED" style="display: none;">Vui lòng nhập Họ tên</small></div>
                               </div>
                               <div class="form-group">
-                                  <label class="checkbox-inline">
+                                <div class="input-wrap">
+                                  <label class="checkbox-inline icheck-wrap">
                                     <input type="checkbox"> Nhận các thông tin và chương trình khuyến mãi của Icho.vn qua email.
                                   </label>
+                                </div>
                               </div>
                               <div class="form-group policy-group">
                                 <div class="input-wrap">
@@ -168,7 +171,7 @@
                               </div>
                             </div>
                             
-                            <div class="col-sm-6">
+                            <div class="right-col">
                               <p class="text">Đăng nhập vào Tiki bằng tài khoản mạng xã hội</p>
                               <div class="form-group last"> <a class="btn btn-block btn-social btn-facebook user-name-loginfb" title="Đăng nhập bằng Facebook" href="javascript: void(0)" data-url="#"> <i class="fa fa-facebook"></i> <span>Đăng nhập bằng</span><span> Facebook</span> </a> </div>
                             </div>
@@ -180,13 +183,13 @@
                 </div><!-- end modal -->
                 
                 <!-- Modal -->
-                <div class="modal fade" id="modalResetPasswordFrom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal fade" id="reset-password-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-sm">
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Quên mật khẩu?</h4>
                         <div class="head">
+                          <h2 class="modal-title" id="myModalLabel">Quên mật khẩu?</h2>
                           <p><span>Vui lòng gửi email. Chúng tôi sẽ gửi link khởi tạo mật khẩu mới qua email của bạn.</span></p>
                         </div>
                       </div>
