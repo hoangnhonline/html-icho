@@ -437,18 +437,26 @@
       $('body').css('padding-right','0px');
     })*/
     
-    jQuery(".readmore").click(function () {
+    $(".readmore").click(function () {
       open = !open;
       if (!open) {
-        jQuery(this).text("Thu gọn");
-        jQuery(".product-content-detail").css("max-height", "10000px");
+        $(this).text("Thu gọn");
+        $(".product-content-detail").css("max-height", "10000px");
       }
       else {
-        jQuery(this).text("Xem chi tiết");
-        jQuery(".product-content-detail").css("max-height", "500px");
+        $(this).text("Xem chi tiết");
+        $('html, body').animate({
+            scrollTop: $(".product-content-detail").offset().top
+        });
+        $(".product-content-detail").css("max-height", "500px");
+        
       }
-    });
-    
+    });    
+    if( $('.product-content-detail').height() >= 400){
+        $('.box-readmore').show();        
+    }else{
+        $('.box-readmore').hide();
+    }    
     
 })(jQuery); // End of use strict
 
