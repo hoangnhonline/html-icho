@@ -5688,7 +5688,121 @@ margin:0
 .doi-tra .return-product:hover {
     color: #0A4C7E
 }
+.content-text h1{margin: 10px 0 20px;font-size: 32px;color: #4e5665;}
+.content-text h2{margin: 10px 0;font-size: 24px;}
+.content-text h3{margin: 10px 0 5px;font-size: 16px;color: #7F7F7F;}
+.content-text h1,h2,h3{font-weight: bold;}
+.content-text p{
+    margin-bottom: 5px;
+}
+.content-text th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    color: white;
+}
+.content-text table{
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.content-text table td, table th {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+h1.title-page{
+    text-align: left;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.content-text h3{
+    padding: 10px 0 0;
+}
+.content-text .entry-content{
+    font-size: 14px;
+}
 
+.content-text #help-navigation {
+    float: left;
+    padding-top: 10px;
+    width: 247px;
+}
+.content-text .nolist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.content-text #help-navigation ul li {
+    border-bottom: 1px solid #f2f2f2;
+    display: block;
+    height: 38px;
+    margin-bottom: 0;
+}
+.content-text #help-navigation ul li {
+    border-bottom: 1px solid #f2f2f2;
+    display: block;
+    height: 38px;
+    margin-bottom: 0;
+}
+.content-text #help-navigation ul li a {
+    background-image: url(../img/help-left-menu-arrow.png);
+    background-position: 236px center;
+    background-repeat: no-repeat;
+    color: #0a63c7;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 15px;
+}
+.content-text #help-navigation ul li a:hover, #help-navigation ul li.active a {
+    background-color: #ebeef4;
+}
+.content-text #help-main {
+    float: right;
+    width: 712px;
+}
+
+/*---Reset css---*/
+@media (min-width: 1200px) {
+    .content-text #help-main {
+        width: 889px;
+    }
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    .content-text #help-navigation{
+        display: none;
+    }
+    .content-text #help-main {
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 603px){
+
+}
+@media (max-width: 460px) {
+
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 240px){
+
+}
+.content-text ul li{
+	list-style: disc !important;
+	margin-left: 30px
+}
+.tree-menu li{
+	line-height: 30px !important;
+}
 
 /*________________ THE END ________________ */
 
