@@ -5805,7 +5805,59 @@ h1.title-page{
 }
 
 /*________________ THE END ________________ */
-
+.payment_box{
+  margin-left: 17px;
+  margin-bottom: 15px;
+}
+.box-info-payment {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 10px 0;
+    background: #fbfbfb;
+}
+.info-payment-top {
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.info-payment-center {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info-payment-item {
+    margin-top: 10px;
+    border-bottom: 1px dotted #ddd;
+    clear: both;
+}
+.payment-thumb {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.payment-detail {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 20px;
+    font-size: 13px;
+}
+.payment-bankname {
+    font-weight: 700;
+}
+.payment-detail-row {
+    margin-bottom: 5px;
+}
+.menu-ngang-server{
+    width: 450px;
+}
+.menu-ngang-laptop, .menu-ngang-desktop{
+    width: 450px;
+}
+.menu-ngang-dien-thoai{
+    width: 700px;
+}
+.menu-ngang-tablet{
+    width: 500px;
+}
 
 
 
