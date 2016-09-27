@@ -1521,9 +1521,9 @@ span.notify-right{
     cursor: pointer;
 }
 .box-vertical-megamenus .all-category span:hover{
-  background: #FF3366;
+  background: #ec1c24;
   color: #fff;
-  border-color: #FF3366;
+  border-color: #ec1c24;
 }
 .box-vertical-megamenus .all-category span:after{
     font: normal normal normal 14px/1 FontAwesome;
