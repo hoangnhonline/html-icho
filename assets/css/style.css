@@ -2617,6 +2617,8 @@ span.notify-right{
     padding-bottom: 5px;
     height: 32px;
     overflow: hidden;
+    font-size: 14px;
+    font-weight: normal;
 }
 .product-list li .product-name a:hover{
     color: #000;

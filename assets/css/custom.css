@@ -5857,6 +5857,44 @@ h1.title-page{
 .menu-ngang-tablet{
     width: 500px;
 }
-
-
+.promotion-info>.body-content {
+    position: relative;
+    display: block;
+    overflow: visible;
+    margin: 25px 0 10px;
+    padding: 15px 10px 10px;
+    border: 1px solid #d9d9d9;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.promotion-info h3 {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    padding: 5px;
+    background: #fff;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+}
+.promotion-info p {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    background: url(../images/circle-2.png) left center no-repeat;
+    background-size: 6px 6px;
+}
+.infofollow {
+    margin: 10px 10px 0;
+}
+.infofollow p {
+    display: block;
+    overflow: hidden;
+    line-height: 21px;
+    padding-left: 15px;
+    background: url(../images/circle-2.png) left 7px no-repeat;
+    background-size: 6px 6px;
+    margin-bottom: 0;
+}
 
