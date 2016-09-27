@@ -5897,4 +5897,13 @@ h1.title-page{
     background-size: 6px 6px;
     margin-bottom: 0;
 }
-
+.contact-face {
+    position: fixed;
+    right: 0;
+    bottom: -300px;
+    z-index: 10000;
+    width: 320px;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+    line-height: 25px;
+}
