@@ -4055,11 +4055,11 @@ a.detail-consulting i{
   position: relative;
 }
 .page-heading{
-  height: 22px;
+  height: 42px;
   border-bottom: 1px solid #eaeaea;
   line-height: 40px;
   position: relative;
-  font-size: 24px;
+  font-size: 20px;
 }
 .page-heading span.page-heading-title{
   border-bottom: 3px solid #ec1c24;

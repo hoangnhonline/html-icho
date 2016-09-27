@@ -395,6 +395,21 @@
 .option2 .product-featured .col-right-tab{
 	padding-left: 0;
 }
+
+.option2 .product-featured .col-right-tab.banner-waper-left{
+	padding-left: 10px;
+}
+.option2 .product-featured .col-right-tab.banner-waper-left .banner-waper{
+	width: 40% !important;
+  position: relative !important;
+}
+.option2 .product-featured .col-right-tab.banner-waper-left .banner-waper > ul li{
+	width: 100%;
+}
+.option2 .product-featured .col-right-tab.banner-waper-left .banner-waper > ul li img{
+	height: 100%;
+}
+
 .option2 .product-featured .sub-category-list{
 	float: left;
 	padding: 20px 30px;
@@ -1190,6 +1205,14 @@
   
   
 }
+
+
+@media (max-width: 992px) {
+.option2 .product-featured .col-right-tab {
+      padding-left:15px;
+  }
+}
+
 /*--------------------
 [15. Styles for devices(<=480px)]
 */
@@ -1293,8 +1316,10 @@
   .product-list li .left-block {
 
   }
+  
 
 }
+
 
 /* Trang so sanh */
 
