@@ -999,6 +999,9 @@ img.alignright{
   position: relative;
   font-weight: 700;
   font-size: 14px;
+  width: 120px;
+  height: 21px;
+  overflow: hidden;
 }
 .main-header .header-user .user-name .user-name-link ul li.user-name-short .badge {
   margin-left: 5px;
@@ -1612,6 +1615,20 @@ span.notify-right{
   padding: 0;
   margin-left: -15px;
 }
+
+#main-menu li.logo-on-menu, #main-menu li.logo-on-menu:hover{
+  background: #e2e2e2 !important;
+}
+
+#main-menu li.logo-on-menu a{
+  margin: 10px 0 !important;
+}
+
+#main-menu li.logo-on-menu img{
+  height: 27px;
+}
+
+
 #main-menu .container-fluid{
   padding: 0;
 }
