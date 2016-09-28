@@ -4712,10 +4712,15 @@ padding-right: 10px;
   margin-top: 15px;
   padding: 0 40px;
 }
-#product .pb-left-column .product-image .product-img-thumb li{
+#product .pb-left-column .product-image .product-img-thumb li a{
+  display: block;
   border: 1px solid #eaeaea;
   padding: 7px 10px;
 }
+#product .pb-left-column .product-image .product-img-thumb li a.zoomGalleryActive{
+  border: 1px solid #ec1c24;
+}
+
 #product .pb-left-column .product-image .owl-next{
   right: -40px;
 }
@@ -4918,7 +4923,7 @@ padding-right: 10px;
     padding: 10px 25px;
 }
 #contact #btn-send-contact:hover{
-    background: #F36;
+    background: #ec1c24;
 }
 #contact_form_map ul {
   line-height: 28px;
