@@ -2373,7 +2373,7 @@ span.notify-right{
   right: 0;
   bottom: 0;
   left: 0;
-  max-height: 80%;
+  max-height: 100%;
 }
 .product-list li:hover img{
   /*
