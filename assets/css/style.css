@@ -5477,6 +5477,7 @@ padding-right: 10px;
 .blog-list .blog-list-wapper ul li{
   border: 1px solid #eaeaea;
   line-height: 30px;
+  margin-bottom: 20px;
 }
 .blog-list .blog-list-wapper ul li .post-desc{
   padding: 15px;
