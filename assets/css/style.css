@@ -4870,6 +4870,9 @@ padding-right: 10px;
   left: inherit;
   right: 26px;
 }
+.page-product-box .product-list.owl-carousel li .left-block img{
+  max-height: 100%;
+}
 
 /* ----------------
  [19. Contact page]
