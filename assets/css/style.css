@@ -2634,10 +2634,11 @@ span.notify-right{
 }
 .product-list li .product-name{
     padding-bottom: 5px;
-    height: 32px;
+    height: 30px;
     overflow: hidden;
     font-size: 14px;
     font-weight: normal;
+    margin-bottom: 2px;
 }
 .product-list li .product-name a:hover{
     color: #000;
@@ -4795,6 +4796,7 @@ padding-right: 10px;
   overflow: hidden;
   -webkit-transition: max-height 1s;
   transition: max-height 1s;
+  line-height: 28px;
 }
 
 .product-content-detail .box-readmore {
