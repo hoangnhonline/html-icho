@@ -5735,17 +5735,17 @@ margin:0
 .content-text p{
     margin-bottom: 5px;
 }
-.content-text th {
+.content-text .table th {
     padding-top: 11px;
     padding-bottom: 11px;
     background-color: #4CAF50;
     color: white;
 }
-.content-text table{
+.content-text .table{
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
 }
-.content-text table td, table th {
+.content-text .table td, table th {
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     text-align: left;
