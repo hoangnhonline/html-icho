@@ -4342,7 +4342,8 @@ padding-right: 10px;
     background-color: #fafafa;
     border: 1px solid #ccc;
 }
-.sortPagiBar .bottom-pagination .pagination > li.active > a {
+.sortPagiBar .bottom-pagination .pagination > li.active > a,
+.sortPagiBar .bottom-pagination .pagination > li.active > span {
     background-color: #ec1c24;
 }
 .sortPagiBar .bottom-pagination .pagination > li:last-child > a, 
