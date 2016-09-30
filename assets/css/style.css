@@ -4337,10 +4337,13 @@ padding-right: 10px;
     padding: 5px 12px;
     margin-left: -1px;
     line-height: 1.42857;
-    color: #999;
+    color: #555;
     text-decoration: none;
     background-color: #fafafa;
-    border: 1px solid #eaeaea;
+    border: 1px solid #ccc;
+}
+.sortPagiBar .bottom-pagination .pagination > li.active > a {
+    background-color: #ec1c24;
 }
 .sortPagiBar .bottom-pagination .pagination > li:last-child > a, 
 .sortPagiBar .bottom-pagination .pagination > li:last-child > span {
