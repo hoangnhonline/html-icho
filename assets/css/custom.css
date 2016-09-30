@@ -5948,3 +5948,9 @@ h1.title-page{
     transition: width .5s;
     line-height: 25px;
 }
+
+.help-block{
+  color:red;
+  font-style: italic;
+  font-size: 13px;
+}
