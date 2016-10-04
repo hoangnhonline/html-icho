@@ -306,7 +306,7 @@
 	position: relative;
 	padding-left: 10px;
 	font-family: Arial, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: normal;
 }
 .option2 .show-brand .navbar-brand img{
@@ -334,7 +334,7 @@
 }
 .option2 .nav-menu .nav>li>a{
 	background: none;
-	padding: 14px 15px;
+	padding: 10px 15px;
 	margin-left: 10px;
 }
 .option2 .nav-menu .nav>li>a:after{
@@ -367,7 +367,7 @@
 }
 .option2 .nav-menu .navbar-collapse {
 	background: #fff;
-	border-bottom: 2px solid #fa8334;
+	border-bottom: 1px solid #fa8334;
 }
 .option2 .nav-menu .nav>li:hover a,
 .option2 .nav-menu .nav>li.active a{
@@ -384,7 +384,7 @@
 .option2 .nav-menu .nav>li:hover a:after,
 .option2 .nav-menu .nav>li.active a:after{
 	color: #fa8334;
-	bottom: -6px;
+	bottom: -4px;
 	opacity: 1;
 	visibility: inherit;
 }
@@ -648,7 +648,7 @@
 }
 .option2 .category-featured.fashion .nav-menu .navbar-collapse {
 	background: #fff;
-	border-bottom: 2px solid #ff3366;
+	border-bottom: 1px solid #ff3366;
 }
 .option2 .category-featured.fashion .nav-menu .nav>li:hover a,
 .option2 .category-featured.fashion .nav-menu .nav>li.active a{
@@ -692,7 +692,7 @@
 }
 .option2 .category-featured.sports .nav-menu .navbar-collapse {
 	background: #fff;
-	border-bottom: 2px solid #00a360;
+	border-bottom: 1px solid #00a360;
 }
 .option2 .category-featured.sports .nav-menu .nav>li:hover a,
 .option2 .category-featured.sports .nav-menu .nav>li.active a{
@@ -734,7 +734,7 @@
 }
 .option2 .category-featured.electronic .nav-menu .navbar-collapse {
 	background: #fff;
-	border-bottom: 2px solid #0090c9;
+	border-bottom: 1px solid #0090c9;
 }
 .option2 .category-featured.electronic .nav-menu .nav>li:hover a,
 .option2 .category-featured.electronic .nav-menu .nav>li.active a{
@@ -774,7 +774,7 @@
 }
 .option2 .category-featured.digital .nav-menu .navbar-collapse {
 	background: #fff;
-	border-bottom: 2px solid #3f5eca;
+	border-bottom: 1px solid #3f5eca;
 }
 .option2 .category-featured.digital .nav-menu .nav>li:hover a,
 .option2 .category-featured.digital .nav-menu .nav>li.active a{
@@ -813,7 +813,7 @@
 }
 .option2 .category-featured.furniture .nav-menu .navbar-collapse {
 	background: #fff;
-	border-bottom: 2px solid #669900;
+	border-bottom: 1px solid #669900;
 }
 .option2 .category-featured.furniture .nav-menu .nav>li:hover a,
 .option2 .category-featured.furniture .nav-menu .nav>li.active a{
@@ -855,7 +855,7 @@
 }
 .option2 .category-featured.jewelry .nav-menu .navbar-collapse {
 	background: #fff;
-	border-bottom: 2px solid #6d6855;
+	border-bottom: 1px solid #6d6855;
 }
 .option2 .category-featured.jewelry .nav-menu .nav>li:hover a,
 .option2 .category-featured.jewelry .nav-menu .nav>li.active a{

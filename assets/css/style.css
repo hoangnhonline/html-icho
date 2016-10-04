@@ -1438,7 +1438,6 @@ span.notify-right{
   display: block;
   line-height: 34px;
   margin-left: -1px;
-  position: relative;
 }
 .box-vertical-megamenus .vertical-menu-list>li:hover{
   background: #ec1c24;
@@ -1454,7 +1453,19 @@ span.notify-right{
   padding-left: 20px;
   line-height: 36px;
   display: block;
-  color: #333;
+  color: #333 !important;
+  position: relative;
+}
+.box-vertical-megamenus .vertical-menu-list>li>a:hover{
+  background-color: #fff !important;
+  color: #444 !important;
+}
+.box-vertical-megamenus .vertical-menu-list>li:hover{
+  background-color: #fff !important;
+  color: #444 !important;
+  border-bottom: 1px solid #D51C1F !important;
+  border-top: 1px solid #D51C1F !important;
+  border-left: 1px solid #D51C1F !important;
 }
 .box-vertical-megamenus .vertical-menu-content ul>li>a.parent:before {
   display: inline-block;
@@ -1534,7 +1545,7 @@ span.notify-right{
 
 .vertical-dropdown-menu{
   position: absolute;
-  top: -15px;
+  top: 51px;
   left: 100%;
   z-index: 900;
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -1550,9 +1561,9 @@ span.notify-right{
   display: block;
   visibility: hidden;
   -webkit-backface-visibility: hidden;
-  height: 0;
+  height: 452px !important;
   background: #fff;
-  border: 1px solid #eaeaea;
+  border: 1px solid #ec1c24;
 }
 .vertical-dropdown-menu .vertical-groups{
     padding: 24px 15px;
@@ -1563,6 +1574,19 @@ span.notify-right{
     margin-bottom: 10px;
     display: table;
     width: 100%;
+}
+.vertical-dropdown-menu .mega-group-header2{
+    font-size: 14px;
+    margin-bottom: 7px;
+    display: table;
+    width: 100%;
+    font-weight: bold;
+}
+.vertical-dropdown-menu .mega-group-header2{
+    border-bottom: 1px solid #888;
+    color: #333;
+    padding-bottom: 5px;
+    display: inline;
 }
 .vertical-dropdown-menu .mega-group-header span{
     padding-bottom: 10px;
@@ -1579,8 +1603,9 @@ span.notify-right{
 }
 .vertical-dropdown-menu .group-link-default li{
     border: none!important;
-    padding-left: 0!important;
+    padding-left: 7!important;
     line-height: 28px!important;
+    font-size: 13px;
 }
 .vertical-dropdown-menu .mega-products .mega-product{
     border-right: 1px solid #eaeaea;
@@ -1605,6 +1630,11 @@ span.notify-right{
 .vertical-dropdown-menu .mega-products .mega-product .product-star{
   margin-top: 5px;
   color: #ff9900;
+}
+
+
+.vertical-dropdown-menu .box-img-pos {
+  position: absolute; bottom: 0; right: 0;
 }
 
 
@@ -1756,6 +1786,7 @@ span.notify-right{
 */
 .nav-menu{
     border: none;
+    min-height: 40px;
 }
 .nav-menu .container-fluid{
     padding: 0;
@@ -1781,7 +1812,7 @@ span.notify-right{
 }
 
 .nav-menu .navbar-brand{
-    
+    height: 40px;
     font-size: 14px;
     font-weight: bold;
     display: none;
@@ -1792,7 +1823,7 @@ span.notify-right{
 }
 .nav-menu .toggle-menu{
     float: right;
-    line-height: 49px;
+    line-height: 40px;
     max-height: 50px;
 }
 
@@ -1804,14 +1835,14 @@ span.notify-right{
 }
 .floor-elevator{
     width: 70px;
-    height: 50px;
+    height: 43px;
     position: absolute;
     top: 0;
     right: 0;
     background: url("../images/floor-elevator.png") no-repeat left center;
     padding-left: 38px;
     padding-right: 22px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     line-height: normal;
     color: #999;
@@ -1834,7 +1865,7 @@ span.notify-right{
   background-color: #ec1c24;
   padding: 3px 12px;
   position: absolute;
-  top: 14px;
+  top: 10px;
   right: 0;
   margin-right: 15px;
   font-size: 13px;
@@ -1985,12 +2016,12 @@ span.notify-right{
     text-transform: uppercase;
     padding: 0;
     padding-left: 20px;
-    line-height: 50px;
+    line-height: 40px;
     font-size: 16px;
 }
 .show-brand .navbar-brand a{
     color: #fff;
-    line-height: 53px;
+    line-height: 40px;
 }
 .show-brand .navbar-brand img{
     vertical-align: middle;
@@ -2324,7 +2355,7 @@ span.notify-right{
     text-transform: uppercase;
     color: #333;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: normal;
 }
 .service .service-item:last-child{
     border-right: none;
@@ -2637,7 +2668,7 @@ span.notify-right{
     height: 30px;
     overflow: hidden;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 2px;
 }
 .product-list li .product-name a:hover{
@@ -3387,7 +3418,7 @@ span.notify-right{
 #footer-bottom-box .tit{
   margin-bottom: 7px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 #footer-bottom-box .bo-cong-thuong{
@@ -3401,6 +3432,7 @@ span.notify-right{
   background: #eaeaea;
   border-top: 1px solid #aaa;
   margin-top: 0;
+  font-size: 13px;
 }
 #footer-menu-box {
     border-top: 1px solid #E1E1E1;
@@ -5484,6 +5516,12 @@ padding-right: 10px;
 }
 .blog-list .page-heading{
   text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 100;
+}
+.blog-list .page-heading span.page-heading-title{
+  text-transform: uppercase;
+  padding-left: 0;
 }
 .blog-list .blog-list-wapper{
   margin-top: 30px;
@@ -5499,6 +5537,7 @@ padding-right: 10px;
 .blog-list .blog-list-wapper ul li .post-desc .post-title a{
   font-size: 14px;
   color: #333;
+  font-weight: 600;
 }
 .blog-list .blog-list-wapper ul li .post-desc .post-title a:hover{
   color: #f96d10;
