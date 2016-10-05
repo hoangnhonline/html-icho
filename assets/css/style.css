@@ -2807,6 +2807,16 @@ span.notify-right{
   background: -o-linear-gradient(top,#f89406,#f76b1c);
 }
 
+#view-product-list-more .product-list li .left-block {
+  height: 250px;
+}
+#view-product-list-more .product-list li .info-more {
+  padding: 10px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 20px;
+}
+
 /*------------------
 [9. Owl carousel]
 */
