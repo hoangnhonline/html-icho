@@ -4377,6 +4377,7 @@ padding-right: 10px;
 .sortPagiBar .bottom-pagination .pagination > li.active > a,
 .sortPagiBar .bottom-pagination .pagination > li.active > span {
     background-color: #ec1c24;
+    color: #FFF;
 }
 .sortPagiBar .bottom-pagination .pagination > li:last-child > a, 
 .sortPagiBar .bottom-pagination .pagination > li:last-child > span {
