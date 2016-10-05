@@ -4918,7 +4918,8 @@ padding-right: 10px;
   right: 26px;
 }
 .page-product-box .product-list.owl-carousel li .left-block img{
-  max-height: none;
+  max-height: 80%;
+  max-width: 80%;
 }
 
 /* ----------------
