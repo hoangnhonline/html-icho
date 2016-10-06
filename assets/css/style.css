@@ -4110,7 +4110,6 @@ a.detail-consulting i{
 }
 
 .view-product-list{
-  margin-top: 20px;
   position: relative;
 }
 .page-heading{
@@ -4124,7 +4123,6 @@ a.detail-consulting i{
   border-bottom: 3px solid #ec1c24;
   position: absolute;
   bottom: -1px;
-  padding: 0 12px;
 }
 .page-heading span.page-heading-title2{
   text-transform: uppercase;
