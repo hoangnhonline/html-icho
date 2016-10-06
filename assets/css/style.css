@@ -1548,12 +1548,12 @@ span.notify-right{
   top: 51px;
   left: 100%;
   z-index: 900;
-  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
-  -webkit-transition: all 0.45s ease-out 0s;
-  -moz-transition: all 0.45s ease-out 0s;
-  -o-transition: all 0.45s ease-out 0s;
-  transition: all 0.45s ease-out 0s;
+  -webkit-transition: opacity 0s, -webkit-transform 0s;
+  transition: opacity 0s, transform 0s;
+  -webkit-transition: all 0s ease-out 0s;
+  -moz-transition: all 0s ease-out 0s;
+  -o-transition: all 0s ease-out 0s;
+  transition: all 0s ease-out 0s;
   -moz-transform: translate(100px, 0);
   -webkit-transform: translate(100px, 0);
   transform: translate(100px, 0);
@@ -1706,8 +1706,8 @@ span.notify-right{
   border-top: none;
   left: auto;
   padding: 30px 15px;
-  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
+  -webkit-transition: opacity 0s, -webkit-transform 0s;
+  transition: opacity 0s, transform 0s;
   -webkit-transform: translate(0,40px);
   -moz-transform: translate(0,40px);
   -o-transform: translate(0,40px);
@@ -1766,7 +1766,7 @@ span.notify-right{
   padding-left: 7px;
 }
 #main-menu li.dropdown:before {
-  content: "\f0de";
+
   font-family: "FontAwesome";
   font-size: 15px;
   color: #fff;
