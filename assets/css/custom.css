@@ -5967,7 +5967,8 @@ h1.title-page{
   margin-top: 13px;
 }
 .fshop-ftcall-free {
-  padding-right: 10px;
+  padding-right: 30px !important;
+  margin-right: 30px !important;
   border-right: 1px solid #b3b3b3
 }
 .fshop-ftcall-bh a,
@@ -5979,7 +5980,7 @@ h1.title-page{
 .fshop-ftcall-free span {
   display: table-cell;
   vertical-align: middle;
-  font-size: 12px;
+  font-size: 13px;
   color: #494949;
   line-height: 20px
 }
@@ -5993,14 +5994,15 @@ span.fa-stack.fa-lg {
   line-height: 2em;
   display: block;
   float: left;
-  color: #c91010
+  color: #c91010;
+  margin-right: 12px;
 }
 .fshop-ftcall-bh {
   line-height: 20px
 }
 footer .container ul li.fshop-ftcall-bh a {
   color: #444;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px
 }
 .list-inline {

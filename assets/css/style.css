@@ -3299,7 +3299,7 @@ span.notify-right{
 }
 /** #introduce-box **/
 #introduce-box {
-    margin-top: 40px;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 .introduce-title {
@@ -3434,6 +3434,15 @@ span.notify-right{
 #footer-bottom-box .bo-cong-thuong{
   text-align: right;
   vertical-align: top;
+}
+
+@media (max-width: 640px) {
+
+#footer-bottom-box .bo-cong-thuong{
+  text-align: left;
+  vertical-align: top;
+}
+
 }
 
 
