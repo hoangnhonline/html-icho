@@ -343,6 +343,7 @@
   float: right;  
   padding-left: 0;
 }
+.main-header .header-user .user-name { margin-right: 0; }
 
 .readmore-category { display: none; }
 
@@ -1020,7 +1021,7 @@
 	#main-menu .navbar-header {
 	  display: block;
 	  margin: 0;
-	  background: #ff3366;
+	  background: #ec1c24;
 	  color: #fff;
 	  margin-left: 15px;
 	}
