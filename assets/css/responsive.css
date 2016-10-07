@@ -151,8 +151,12 @@
 	}
 	.main-header .shopping-cart-box{
 		margin-left: 0;
-		width: 16.667%;
+		width: 11%;
 	}
+  .main-header .header-user {
+    float: right;  
+    padding-left: 0;
+  }
   .main-header .choose-user-login {
     width: 20%;
   }
@@ -317,6 +321,30 @@
 /*--------------------
 [4. Styles for devices(>=481px and <=767px)]
 */
+
+
+@media (max-width: 768px) {
+
+.main-header {
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-header .shopping-cart-box{
+  padding-left: 15px;
+  padding-right: 0;
+  margin-left:0; 
+  display: inline-block;
+}
+.main-header .header-user {
+  float: right;  
+  padding-left: 0;
+}
+
+}
+
+
 @media (min-width: 481px) and (max-width: 767px) { 
 	.home .box-vertical-megamenus .vertical-menu-content{
 		display: none;
@@ -349,11 +377,11 @@
 	    padding-top: 0;
 	}
 	.main-header .shopping-cart-box{
-		padding-left: 15px;
-		padding-right: 15px;
-		margin-left:0; 
-		width: 50%;
+
 	}
+  .main-header .header-user {
+
+  }
   .main-header .shopping-cart-box a.cart-link {
     display: inline-block;
     width: auto;
@@ -721,12 +749,16 @@
 	    padding-top: 10px;
 	}
 	.main-header .shopping-cart-box{
-		padding-left: 15px;
-		padding-right: 15px;
-		margin-left:0; 
-		width: 100%;
-		margin-top: 30px;
+		width: 25%;
+    margin-right: 0;
 	}
+  .main-header .shopping-cart-box a.cart-link{
+    width: 0;
+    
+  }
+  .main-header .header-user {
+    width: 75%;
+  }
   .main-header .choose-user-login .dropdown-menu {
        
   }
