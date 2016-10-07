@@ -19,12 +19,14 @@
 		padding: 15px 15px;
 	}
 	.main-header .header-search-box{
-		padding-left: 0;
-		width: 50%;
+		padding-left: 32px;
+		width: 45%;
 	}
 	.main-header .shopping-cart-box{
-		float: right;
-		width: 25%;
+
+	}
+  .main-header .header-user{
+    width: 27%;
 	}
 	.box-vertical-megamenus .vertical-menu-content{
 		display: none;
@@ -746,7 +748,7 @@
 	}
 	.main-header .header-search-box .form-inline .input-serach {
 	    width: calc(100% - 50px);
-	    padding-top: 10px;
+	    padding-top: 0;
 	}
 	.main-header .shopping-cart-box{
 		width: 25%;
