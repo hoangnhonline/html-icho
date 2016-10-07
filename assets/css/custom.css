@@ -1068,7 +1068,7 @@
 		padding: 10px;
 	}
 	.option2 .product-featured .box-left .banner-img{
-		display: none;
+		display: block;
 	}
 	.option2 .product-featured .manufacture-list .manufacture-waper{
 		display: none;
@@ -1163,7 +1163,7 @@
 	}
 	.option2 .product-featured .product-featured-tab-content .box-left{
 		width: 100%;
-		display: none;
+		display: block;
 	}
 	.option2 .product-featured .product-featured-tab-content .box-right{
 		width: 100%;

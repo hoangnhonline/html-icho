@@ -344,6 +344,8 @@
   padding-left: 0;
 }
 
+.readmore-category { display: none; }
+
 }
 
 
@@ -735,14 +737,21 @@
 	}
 	.main-header .logo{
 		text-align: center;
-		margin-top: 10px;
+		margin-top: 0;
+	}
+  .main-header .logo img{
+		width: 120px;
 	}
 	.main-header .header-search-box{
 		width: 100%;
 		padding-left: 15px;
 		padding-right: 15px;
-		margin-top: 30px;
+		margin-top: 10px;
 	}
+  .main-header .header-user .user-name .user-name-box {
+    right: 30px;
+    left: auto;
+}
 	.main-header .header-search-box .form-inline .form-category{
 		display: none;
 	}
