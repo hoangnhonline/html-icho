@@ -1035,13 +1035,20 @@
 }
 
 @media (max-width: 768px) {
+  /*
   .option2 .product-featured .box-left .banner-img{
 		display: block;
 	}
   .option2 .product-featured .box-left .banner-img img{
 		width: 100% !important;
     max-height: 100% !important;
-	}
+	}*/
+  
+  .option2 .product-featured .banner-waper {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+  }
 }
 
 /*--------------------
