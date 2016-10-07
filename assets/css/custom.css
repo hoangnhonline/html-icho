@@ -1033,6 +1033,17 @@
 		border-left: 1px solid #eaeaea;
 	}
 }
+
+@media (max-width: 768px) {
+  .option2 .product-featured .box-left .banner-img{
+		display: block;
+	}
+  .option2 .product-featured .box-left .banner-img img{
+		width: 100% !important;
+    max-height: 100% !important;
+	}
+}
+
 /*--------------------
 [13. Styles for devices(>=768px and <=992px)]
 */
@@ -1069,6 +1080,10 @@
 	}
 	.option2 .product-featured .box-left .banner-img{
 		display: block;
+	}
+  .option2 .product-featured .box-left .banner-img img{
+		width: 100% !important;
+    max-height: 100% !important;
 	}
 	.option2 .product-featured .manufacture-list .manufacture-waper{
 		display: none;
