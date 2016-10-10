@@ -720,7 +720,7 @@ $(document).ready(function() {
             token : token
           },
           success : function(data){
-            if(data.success) {
+            if(!data.success) {
               location.reload();
             } else {
               location.href = $('#route-cap-nhat-thong-tin').val();

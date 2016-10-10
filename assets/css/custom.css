@@ -415,6 +415,7 @@
 	padding: 20px;
 	line-height: 30px;
 	background: #fff;
+	padding-left: 15px !important;
 }
 .option2 .product-featured .product-featured-tab-content{
 }
