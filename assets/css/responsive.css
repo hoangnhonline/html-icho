@@ -11,6 +11,7 @@
 */
 @media (min-width: 1201px){
 }
+
 /*----------------
 [2. Styles for devices(>=993px and <=1200px)]
 */
@@ -131,6 +132,11 @@
 /*--------------------
 [3. Styles for devices(>=768px and <=992px)]
 */
+@media (min-width: 800px){
+	.option2 .nav-menu .navbar-collapse .navbar-nav{
+		display: none;
+	}
+}
 @media (min-width: 768px) and (max-width: 992px) {
 	.home .box-vertical-megamenus .vertical-menu-content{
 		display: none;
