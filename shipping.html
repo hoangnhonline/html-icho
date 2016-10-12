@@ -571,10 +571,19 @@
                           
                           <div class="form-group-row row row-style-3 end is-no-hover">
                             <div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+                              
+                              <div class="btn-buy-no-register">
+                                <div class="form-group">
+                                  <button type="button" id="" class="btn btn-danger btn-block"><label>MUA HÀNG KHÔNG CẦN ĐĂNG KÝ</label></button>
+                                </div>
+                                <label class="mb10">Hoặc</label>
+                              </div>
+                              
                               <div class="panel panel-default payment-sub">
                                 <div class="panel-body"> 
+                                
                                   <!-- login widget -->
-                                  <div id="login-form">
+                                  <div id="login-form" style="display:block;">
                                     <form class="content bv-form" method="POST" action="https://tiki.vn/customer/account/ajax_login" id="login_popup_form" novalidate>
                                       <button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
                                       <input type="hidden" name="checkout_step" value="1">
@@ -599,7 +608,9 @@
                                   <!-- login widget --> 
                                   
                                   <!-- Register widget -->
-                                  <div id="register-form">
+
+                                  <div id="register-form" style="display:none;">
+                                    
                                     <form id="register_popup_form" class="content bv-form" method="POST" action="/customer/account/ajax_create" novalidate>
                                       <button type="submit" class="bv-hidden-submit" style="display: block; width: 0px; height: 0px;"></button>
                                       <div form-group="" id="general_error"> <span></span> </div>
