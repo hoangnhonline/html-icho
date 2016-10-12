@@ -2405,6 +2405,7 @@ span.notify-right{
   bottom: 0;
   left: 0;
   max-height: 80%;
+  width: auto;
 }
 .product-list li:hover img{
   /*
