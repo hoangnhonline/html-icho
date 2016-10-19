@@ -2407,6 +2407,12 @@ span.notify-right{
   max-height: 80%;
   width: auto;
 }
+.product-list li .left-block img.lazy-img2{
+  opacity: 0;
+}
+.product-list li:hover img.lazy-img2{
+  opacity: 1;
+}
 .product-list li:hover img{
   /*
   -webkit-transform: scale(1.2,1.2);
@@ -2769,6 +2775,11 @@ span.notify-right{
      font-size: 13px;
 }
 
+.product-list li .left-block .gift-icon{
+  position: absolute;
+  left: 5px; top: 5px;
+  z-index: 999; margin: inherit;
+}
 .product-list li .discount{
   background-color: #F77C00;
   color: #fff;
@@ -6094,3 +6105,7 @@ padding-right: 10px;
   color: #fff;
   opacity: 0.8;
 }
+
+
+
+

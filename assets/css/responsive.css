@@ -9,7 +9,15 @@
 /*----------------
 [1. Styles for devices(>1200px)]
 */
+#category-product-event .product-list li{
+  margin-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
 @media (min-width: 1201px){
+  #category-product-event .product-list li{
+    width: 20%;
+  }
 }
 
 /*----------------
@@ -1221,3 +1229,7 @@
   #footer-bottom-box .col-sm-6{ text-align: center; }
   
 }
+
+
+
+
