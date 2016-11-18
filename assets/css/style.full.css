@@ -3252,7 +3252,7 @@ span.notify-right{
 #address-list .tit-name{
     float: left;
     font-weight: bold;
-    width: 90px;
+    width: 80px;
     padding-right: 5px;
 }
 #address-list {
@@ -4825,7 +4825,7 @@ padding-right: 10px;
   margin: 0px;
 }
 #content-chitiet, #content-thongso{
-	overflow: hidden;
+  overflow: hidden;
 }
 .product-content-detail .box-readmore .readmore {
   display: block;
@@ -6060,7 +6060,7 @@ padding-right: 10px;
   opacity: 0.8;
 }
 a.readmore{
-	display: block;
+  display: block;
     padding: 8px 0;
     overflow: hidden;
     border: 1px solid #288ad6;
