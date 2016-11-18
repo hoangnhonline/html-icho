@@ -4809,11 +4809,7 @@ padding-right: 10px;
 
 .product-content-detail {
   text-align: justify;
-<<<<<<< HEAD
-  position: relative;
-=======
   position: relative;  
->>>>>>> f9910741e1734662a310993fa4e2c1b12aaaddc5
   overflow: hidden;
   -webkit-transition: max-height 1s;
   transition: max-height 1s;
@@ -4821,9 +4817,6 @@ padding-right: 10px;
 }
 
 .product-content-detail .box-readmore {
-<<<<<<< HEAD
-  margin: 49px auto 20px auto !important;
-=======
   position: absolute;
   width: 100%;
   background: #fff;
@@ -4833,7 +4826,6 @@ padding-right: 10px;
 }
 #content-chitiet, #content-thongso{
 	overflow: hidden;
->>>>>>> f9910741e1734662a310993fa4e2c1b12aaaddc5
 }
 .product-content-detail .box-readmore .readmore {
   display: block;
