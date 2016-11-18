@@ -4858,7 +4858,6 @@ padding-right: 10px;
 .product-content-detail {
   text-align: justify;
   position: relative;
-  max-height: 500px;
   overflow: hidden;
   -webkit-transition: max-height 1s;
   transition: max-height 1s;
@@ -4866,11 +4865,7 @@ padding-right: 10px;
 }
 
 .product-content-detail .box-readmore {
-  position: absolute;
-  width: 100%;
-  background: #fff;
-  height: 54px;
-  bottom: 0;
+  margin: 49px auto 20px auto !important;
 }
 
 .product-content-detail .box-readmore .readmore {
