@@ -5970,7 +5970,8 @@ h1.title-page{
 }
 .fshop-ftcall-free {
   padding-right: 30px !important;
-  margin-right: 30px !important;  
+  margin-right: 30px !important;
+  border-right: 1px solid #b3b3b3
 }
 .fshop-ftcall-bh a,
 .fshop-ftcall-free a {
@@ -6054,6 +6055,9 @@ footer .container ul li.fshop-ftcall-bh a {
 .category-product-hot li.item-bnr .thumb-box {
   border: 1px solid #ccc;
   position: relative;
+}
+.category-product-hot li.item-bnr .thumb-box img:hover {
+  opacity: .9;
 }
 .category-product-hot li.item-bnr .thumb-box .countdown {
   position: absolute;

@@ -1,3 +1,27 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Group button on top menu
+2. Latest deals products
+3. Products list
+4. Header
+5. Category featured
+6. Banner bottom
+7. Blogs
+8. Services
+9. Footer
+10. Owl carousel vertical
+11. Styles for devices(>1200px)
+12. Styles for devices(>=992px and <=1199px)
+13. Styles for devices(>=768px and <=992px)
+14. Styles for devices(>=481px and <=767px)
+15. Styles for devices(<=480px)
+
+-------------------------------------------------------------------*/
+
+/*-------------------
+[2. Latest deals products]
+*/
 .latest-deals-product{
   margin-top: 20px;
   position: relative;
@@ -5970,7 +5994,8 @@ h1.title-page{
 }
 .fshop-ftcall-free {
   padding-right: 30px !important;
-  margin-right: 30px !important;  
+  margin-right: 30px !important;
+  border-right: 1px solid #b3b3b3
 }
 .fshop-ftcall-bh a,
 .fshop-ftcall-free a {
@@ -6054,6 +6079,9 @@ footer .container ul li.fshop-ftcall-bh a {
 .category-product-hot li.item-bnr .thumb-box {
   border: 1px solid #ccc;
   position: relative;
+}
+.category-product-hot li.item-bnr .thumb-box img:hover {
+  opacity: .9;
 }
 .category-product-hot li.item-bnr .thumb-box .countdown {
   position: absolute;
@@ -6151,18 +6179,4 @@ footer .container ul li.fshop-ftcall-bh a {
   background-color: #e51e26;
   border: 1px solid #e51e26;
   color: #fff;
-}
-
-.ldp-banner-full {position: relative; margin-bottom: 20px;}
-
-.btn-thelechuongtrinh {    
-	background-color: #fff;
-    border: 2px solid #ec1c24;
-    font-size: 17px;
-    color: #ec1c24;
-    font-weight: bold;
-    padding: 7px 50px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;    
 }

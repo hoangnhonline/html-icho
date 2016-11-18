@@ -1,3 +1,51 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Common styles
+2. Top banner
+3. Header
+  3.1 Nav on top
+  3.2 Top header
+  3.3 Main header
+  3.4 Main menu
+    3.4.1  Vertical megamenus
+    3.4.1  Main menu
+4. Nav menu
+
+5. Home slider
+6. Page top
+  6.1 Latest deals
+  6.2 Popular tabs
+7. Services
+8. Product
+9. Owl carousel
+10. Banner advertisement
+11. Page content
+  11.1 Category featured
+    11.1.1 Banner featured
+    11.1.2 Product featured
+  11.2 Banner bootom
+12. Brand showcase
+13. Hot categories
+14. Footer
+15. Breadcrumb
+16. Columns
+  16.1 Left column
+  16.2 Center column
+17. Order page
+18. Product page
+19. Contact page
+20. Blog page
+21. Login page
+22. Blog
+23. Footer2
+24. Hot deals style 3
+25. Box product
+-------------------------------------------------------------------*/
+
+/* ----------------
+ [1. Common styles]
+ */
 body{
     font-family: 'Arial', sans-serif;
     font-size: 14px;
@@ -2359,12 +2407,6 @@ span.notify-right{
   max-height: 80%;
   width: auto;
 }
-.product-list li .left-block img.lazy-img2{
-  opacity: 0;
-}
-.product-list li:hover img.lazy-img2{
-  opacity: 1;
-}
 .product-list li:hover img{
   /*
   -webkit-transform: scale(1.2,1.2);
@@ -2727,11 +2769,6 @@ span.notify-right{
      font-size: 13px;
 }
 
-.product-list li .left-block .gift-icon{
-  position: absolute;
-  left: 5px; top: 5px;
-  z-index: 100; margin: inherit;
-}
 .product-list li .discount{
   background-color: #F77C00;
   color: #fff;
@@ -3252,7 +3289,7 @@ span.notify-right{
 #address-list .tit-name{
     float: left;
     font-weight: bold;
-    width: 90px;
+    width: 80px;
     padding-right: 5px;
 }
 #address-list {
@@ -4795,7 +4832,7 @@ padding-right: 10px;
   margin-bottom: 0;
 }
 .product-tab .tab-container .tab-panel{
-  
+  line-height: 24px;
 }
 .product-comments-block-tab {
   overflow: hidden;
@@ -4809,11 +4846,8 @@ padding-right: 10px;
 
 .product-content-detail {
   text-align: justify;
-<<<<<<< HEAD
   position: relative;
-=======
-  position: relative;  
->>>>>>> f9910741e1734662a310993fa4e2c1b12aaaddc5
+  max-height: 500px;
   overflow: hidden;
   -webkit-transition: max-height 1s;
   transition: max-height 1s;
@@ -4821,20 +4855,13 @@ padding-right: 10px;
 }
 
 .product-content-detail .box-readmore {
-<<<<<<< HEAD
-  margin: 49px auto 20px auto !important;
-=======
   position: absolute;
   width: 100%;
   background: #fff;
-  height: 65px;
+  height: 54px;
   bottom: 0;
-  margin: 0px;
 }
-#content-chitiet, #content-thongso{
-	overflow: hidden;
->>>>>>> f9910741e1734662a310993fa4e2c1b12aaaddc5
-}
+
 .product-content-detail .box-readmore .readmore {
   display: block;
   padding: 8px 0;
@@ -6066,23 +6093,4 @@ padding-right: 10px;
 .block-popular-cat .more:hover{
   color: #fff;
   opacity: 0.8;
-}
-a.readmore{
-	display: block;
-    padding: 8px 0;
-    overflow: hidden;
-    border: 1px solid #288ad6;
-    border-radius: 4px;
-    background: #fff;
-    font-size: 15px;
-    font-weight: 700;
-    color: #288ad6;
-    text-transform: uppercase;
-    width: 200px;
-    margin: 10px auto;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,0);
 }

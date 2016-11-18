@@ -1,3 +1,27 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Group button on top menu
+2. Latest deals products
+3. Products list
+4. Header
+5. Category featured
+6. Banner bottom
+7. Blogs
+8. Services
+9. Footer
+10. Owl carousel vertical
+11. Styles for devices(>1200px)
+12. Styles for devices(>=992px and <=1199px)
+13. Styles for devices(>=768px and <=992px)
+14. Styles for devices(>=481px and <=767px)
+15. Styles for devices(<=480px)
+
+-------------------------------------------------------------------*/
+
+/*-------------------
+[2. Latest deals products]
+*/
 .latest-deals-product{
   margin-top: 20px;
   position: relative;
@@ -351,7 +375,7 @@
 
 .option2 .nav-menu .nav>li:hover a:before,
 .option2 .nav-menu .nav>li.active a:before{
-	/*transform: scale(1);*/
+	transform: scale(1);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
@@ -5970,7 +5994,8 @@ h1.title-page{
 }
 .fshop-ftcall-free {
   padding-right: 30px !important;
-  margin-right: 30px !important;  
+  margin-right: 30px !important;
+  border-right: 1px solid #b3b3b3
 }
 .fshop-ftcall-bh a,
 .fshop-ftcall-free a {
@@ -6038,131 +6063,4 @@ footer .container ul li.fshop-ftcall-bh a {
 }
 .fshop-ftad-ytu {
   background-position: -832px 0
-}
-
-
-/* category-product-hot */
-.category-product-hot .title-big {
-  color: #ec1c24;
-  margin-bottom: 10px;
-  padding-bottom: 7px;
-  border-bottom: 2px solid #ec1c24;
-}
-.category-product-hot li.item-bnr {
-  margin-top: 20px;
-}
-.category-product-hot li.item-bnr .thumb-box {
-  border: 1px solid #ccc;
-  position: relative;
-}
-.category-product-hot li.item-bnr .thumb-box .countdown {
-  position: absolute;
-  left: 0; bottom: 0;
-  background-color: #000;
-  opacity: .9;
-  color: #f2f2f2;
-  font-size: 20px;
-  text-align: center;
-  padding: 5px;
-  display: block;
-  width: 100%;
-}
-.category-product-hot li.item-bnr .thumb-box .countdown .countdown-amount {
-  color: #48B2FF;
-}
-
-.category-product-hot .cheap-deals {
-  position: relative;
-  margin-bottom: 30px;
-}
-.category-product-hot .cheap-deals li .item-deal {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-top: 15px;
-  position: relative;
-  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
-}
-.category-product-hot .cheap-deals li .item-deal:hover {
-  border: 1px solid #ec1c24;
-}
-
-.category-product-hot .cheap-deals li .item-deal .deal-discount {
-  position: absolute;
-  top: -1px;
-  left: 10px;
-  color: #fff;
-  padding: 8px 0 2px;
-  background-color: #ff9616;
-  z-index: 1;
-  font-size: 11px;
-  text-align: center;
-  width: 50px;
-}
-.category-product-hot .cheap-deals li .item-deal .deal-discount:after {
-  content: ' ';
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  bottom: -9px;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-top: 9px solid #ff9616;
-}
-.category-product-hot .cheap-deals li .item-deal .deal-discount .deal-discount-number {
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.category-product-hot .cheap-deals li .item-deal .deal-gift {
-  position: absolute; right: 10px; top: 0;
-  font-size: 45px; color: #D51876;
-}
-.category-product-hot .cheap-deals li .deal-img {
-  text-align: center;
-  height: 200px;
-  position: relative;
-}
-.category-product-hot .cheap-deals li .deal-info {
-  color: #444;
-  text-align: center;
-}
-.category-product-hot .cheap-deals li .deal-name {
-  margin-bottom: 10px;
-}
-.category-product-hot .cheap-deals li .deal-remain {
-  margin-bottom: 10px;
-  color: #000;
-}
-.category-product-hot .cheap-deals li .countdown .countdown-amount {
-  font-weight: bold; color: #D79300;
-}
-.category-product-hot .cheap-deals li .deal-price .deal-price-sale {
-  font-weight: bold; color: #ec1c24; font-size: 22px; margin-bottom: 5px;
-}
-
-.category-product-hot .cheap-deals li .deal-btn .buy-now-btn {
-  background-color: transparent;
-  border: 1px solid #e51e26;
-  color: #e51e26;
-}
-.category-product-hot .cheap-deals li .deal-btn .buy-now-btn:hover {
-  background-color: #e51e26;
-  border: 1px solid #e51e26;
-  color: #fff;
-}
-
-.ldp-banner-full {position: relative; margin-bottom: 20px;}
-
-.btn-thelechuongtrinh {    
-	background-color: #fff;
-    border: 2px solid #ec1c24;
-    font-size: 17px;
-    color: #ec1c24;
-    font-weight: bold;
-    padding: 7px 50px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;    
 }
