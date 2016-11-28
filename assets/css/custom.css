@@ -6389,7 +6389,6 @@ footer .container ul li.fshop-ftcall-bh a {
 }
 .events-lp-default .box-coupon-wrapper {
   position: relative;
-  font-size: 0;
   text-align: center
 }
 .events-lp-default .box-coupon-wrapper .abs {
@@ -6460,6 +6459,7 @@ footer .container ul li.fshop-ftcall-bh a {
 }
 .events-lp-default .box-coupon .wrapper {
   background-color: #fff;
+  padding: 10px;
   border: 1px solid #d8d8d8;
   border-radius: 10px;
   border-bottom-width: 4px;
