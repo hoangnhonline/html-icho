@@ -6538,13 +6538,14 @@ footer .container ul li.fshop-ftcall-bh a {
 
 .btn-thelechuongtrinh {    
 	background-color: #ec1c24;
-    border: 2px solid #ec1c24;
-    font-size: 23px;
-    color: #fff;
-    font-weight: bold;
-    padding: 7px 80px;
-    -webkit-border-radius: 0 25px;
-    -moz-border-radius: 0 25px;
-    border-radius: 0 25px;
-    margin-bottom: 20px;  
+  border: 2px solid #ec1c24;
+  font-size: 23px;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 80px;
+  -webkit-border-radius: 0 25px;
+  -moz-border-radius: 0 25px;
+  border-radius: 0 25px;
+  margin-bottom: 20px;  
+  display: inline-block;
 }
